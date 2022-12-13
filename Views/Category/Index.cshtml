@@ -1,0 +1,29 @@
+﻿
+@{
+    Layout = null;
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+<table id="tbl1" class="table table-hover" style="background-color:lavenderblush">
+    <thead>
+        <tr style="border-style: solid; border-color:black">
+            <th>Kategori ID</th>
+            <th>Kategori Adı</th>
+            <th>Sil</th>
+            <th>Güncelle</th>
+        </tr>
+    </thead>
+    <tbody style="border-style: solid; border-color:black">
+        
+        {
+            <tr style="border-style: solid; border-color:black">
+                <th></th>
+                <td></td>
+                @*<td><a href="/Kategori/Sil/@ktgr.kategoriid" class="btn btn-danger">SİL</a></td>
+                <td><a href="/Kategori/Kategorigetir/@ktgr.kategoriid" class="btn btn-success">GÜNCELLE</a></td>*@
+            </tr>
+        }
+    </tbody>
+</table>
+    @*<a href="/Kategori/yenikategori/" class="btn btn-warning">YENİ KATEGORİ EKLE</a>*@
+
